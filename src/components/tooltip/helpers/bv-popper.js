@@ -32,17 +32,17 @@ import { BVTransition } from '../../transition/bv-transition'
 const AttachmentMap = {
   AUTO: 'auto',
   TOP: 'top',
-  RIGHT: 'right',
+  RIGHT: 'end',
   BOTTOM: 'bottom',
-  LEFT: 'left',
+  LEFT: 'start',
   TOPLEFT: 'top',
   TOPRIGHT: 'top',
-  RIGHTTOP: 'right',
-  RIGHTBOTTOM: 'right',
+  RIGHTTOP: 'end',
+  RIGHTBOTTOM: 'end',
   BOTTOMLEFT: 'bottom',
   BOTTOMRIGHT: 'bottom',
-  LEFTTOP: 'left',
-  LEFTBOTTOM: 'left'
+  LEFTTOP: 'start',
+  LEFTBOTTOM: 'start'
 }
 
 const OffsetMap = {
@@ -110,7 +110,7 @@ export const BVPopper = /*#__PURE__*/ extend({
           flip: { behavior: this.fallbackPlacement },
           // `arrow.element` can also be a reference to an HTML Element
           // maybe we should make this a `$ref` in the templates?
-          arrow: { element: '.arrow' },
+          arrow: { element: '.tooltip-arrow' },
           preventOverflow: {
             padding: this.boundaryPadding,
             boundariesElement: this.boundary
@@ -184,7 +184,7 @@ export const BVPopper = /*#__PURE__*/ extend({
     getOffset(placement) {
       if (!this.offset) {
         // Could set a ref for the arrow element
-        const arrow = this.$refs.arrow || select('.arrow', this.$el)
+        const arrow = this.$refs.arrow || select('.tooltip-arrow', this.$el)
         const arrowOffset = toFloat(getCS(arrow).width, 0) + toFloat(this.arrowPadding, 0)
         switch (OffsetMap[String(placement).toUpperCase()] || 0) {
           /* istanbul ignore next: can't test in JSDOM */
