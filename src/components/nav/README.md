@@ -225,7 +225,7 @@ render the menu contents only when it is shown by setting the `lazy` prop to tru
 
 ### Dropdown placement
 
-Use the dropdown props `right`, `dropup`, `dropright`, `dropleft`, `no-flip`, and `offset` to
+Use the dropdown props `right`, `dropup`, `dropend`, `dropstart`, `no-flip`, and `offset` to
 control the positioning of `<b-nav-item-dropdown>`.
 
 Refer to the [`<b-dropdown>` positioning section](/docs/components/dropdown#positioning) for details

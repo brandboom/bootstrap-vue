@@ -399,16 +399,16 @@ describe('dropdown', () => {
     wrapper.destroy()
   })
 
-  it('should have class dropright when prop dropright set', async () => {
+  it('should have class dropend when prop dropend set', async () => {
     const wrapper = mount(BDropdown, {
       attachTo: document.body,
       propsData: {
-        dropright: true
+        dropend: true
       }
     })
 
     expect(wrapper.classes()).toContain('dropdown')
-    expect(wrapper.classes()).toContain('dropright')
+    expect(wrapper.classes()).toContain('dropend')
     expect(wrapper.classes()).not.toContain('show')
     expect(wrapper.find('.dropdown-menu').classes()).not.toContain('show')
 
@@ -417,23 +417,23 @@ describe('dropdown', () => {
     await waitRAF()
 
     expect(wrapper.classes()).toContain('dropdown')
-    expect(wrapper.classes()).toContain('dropright')
+    expect(wrapper.classes()).toContain('dropend')
     expect(wrapper.classes()).toContain('show')
     expect(wrapper.find('.dropdown-menu').classes()).toContain('show')
 
     wrapper.destroy()
   })
 
-  it('should have class dropleft when prop dropleft set', async () => {
+  it('should have class dropstart when prop dropstart set', async () => {
     const wrapper = mount(BDropdown, {
       attachTo: document.body,
       propsData: {
-        dropleft: true
+        dropstart: true
       }
     })
 
     expect(wrapper.classes()).toContain('dropdown')
-    expect(wrapper.classes()).toContain('dropleft')
+    expect(wrapper.classes()).toContain('dropstart')
     expect(wrapper.classes()).not.toContain('show')
     expect(wrapper.find('.dropdown-menu').classes()).not.toContain('show')
 
@@ -442,7 +442,7 @@ describe('dropdown', () => {
     await waitRAF()
 
     expect(wrapper.classes()).toContain('dropdown')
-    expect(wrapper.classes()).toContain('dropleft')
+    expect(wrapper.classes()).toContain('dropstart')
     expect(wrapper.classes()).toContain('show')
     expect(wrapper.find('.dropdown-menu').classes()).toContain('show')
 

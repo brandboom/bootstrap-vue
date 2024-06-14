@@ -309,7 +309,7 @@ either `min` or `max` (depending on which is closes to today's date).
 
 ### Dropdown placement
 
-Use the dropdown props `right`, `dropup`, `dropright`, `dropleft`, `no-flip`, and `offset` to
+Use the dropdown props `right`, `dropup`, `dropend`, `dropstart`, `no-flip`, and `offset` to
 control the positioning of the popup calendar.
 
 Refer to the [`<b-dropdown>` positioning section](/docs/components/dropdown#positioning) for details

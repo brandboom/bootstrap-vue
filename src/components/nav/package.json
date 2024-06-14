@@ -130,11 +130,11 @@
             "description": "The boundary constraint of the menu: 'scrollParent', 'window', 'viewport', or a reference to an HTMLElement. Has no effect when dropdown is inside a `<b-navbar>`"
           },
           {
-            "prop": "dropleft",
+            "prop": "dropstart",
             "description": "When set, positions the menu to the left of the button"
           },
           {
-            "prop": "dropright",
+            "prop": "dropend",
             "description": "When set, positions the menu to the right of the button"
           },
           {

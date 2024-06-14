@@ -68,9 +68,9 @@ export const props = makePropsConfigurable(
     boundary: makeProp([HTMLElement, PROP_TYPE_STRING], 'scrollParent'),
     disabled: makeProp(PROP_TYPE_BOOLEAN, false),
     // Place left if possible
-    dropleft: makeProp(PROP_TYPE_BOOLEAN, false),
+    dropstart: makeProp(PROP_TYPE_BOOLEAN, false),
     // Place right if possible
-    dropright: makeProp(PROP_TYPE_BOOLEAN, false),
+    dropend: makeProp(PROP_TYPE_BOOLEAN, false),
     // Place on top if possible
     dropup: makeProp(PROP_TYPE_BOOLEAN, false),
     // Disable auto-flipping of menu from bottom <=> top
@@ -117,10 +117,10 @@ export const dropdownMixin = extend({
     directionClass() {
       if (this.dropup) {
         return 'dropup'
-      } else if (this.dropright) {
-        return 'dropright'
-      } else if (this.dropleft) {
-        return 'dropleft'
+      } else if (this.dropend) {
+        return 'dropend'
+      } else if (this.dropstart) {
+        return 'dropstart'
       }
       return ''
     },
@@ -267,9 +267,9 @@ export const dropdownMixin = extend({
       let placement = PLACEMENT_BOTTOM_START
       if (this.dropup) {
         placement = this.right ? PLACEMENT_TOP_END : PLACEMENT_TOP_START
-      } else if (this.dropright) {
+      } else if (this.dropend) {
         placement = PLACEMENT_RIGHT_START
-      } else if (this.dropleft) {
+      } else if (this.dropstart) {
         placement = PLACEMENT_LEFT_START
       } else if (this.right) {
         placement = PLACEMENT_BOTTOM_END

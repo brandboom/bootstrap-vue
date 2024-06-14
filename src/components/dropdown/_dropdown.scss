@@ -8,7 +8,7 @@ $bv-dropdown-defined: false !default;
   // See: https://github.com/bootstrap-vue/bootstrap-vue/issues/1473
   // See: https://github.com/twbs/bootstrap/issues/23724
   .dropdown {
-    &:not(.dropleft) {
+    &:not(.dropstart) {
       .dropdown-toggle {
         &.dropdown-toggle-no-caret::after {
           display: none !important;
@@ -17,7 +17,7 @@ $bv-dropdown-defined: false !default;
     }
 
     // See: https://github.com/bootstrap-vue/bootstrap-vue/issues/2909
-    &.dropleft {
+    &.dropstart {
       .dropdown-toggle {
         &.dropdown-toggle-no-caret::before {
           display: none !important;

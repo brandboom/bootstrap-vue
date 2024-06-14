@@ -98,28 +98,28 @@ Turn your dropdown menu into a drop-up menu by setting the `dropup` prop.
 
 ### Drop right or left
 
-Turn your dropdown menu into a drop-right menu by setting the `dropright` prop. Or, turn it into a
-drop-left menu by setting the `dropleft` right prop to true.
+Turn your dropdown menu into a drop-right menu by setting the `dropend` prop. Or, turn it into a
+drop-left menu by setting the `dropstart` right prop to true.
 
-`dropright` takes precedence over `dropleft`. Neither `dropright` or `dropleft` have any effect if
+`dropend` takes precedence over `dropstart`. Neither `dropend` or `dropstart` have any effect if
 `dropup` is set.
 
 ```html
 <div>
-  <b-dropdown id="dropdown-dropright" dropright text="Drop-Right" variant="primary" class="m-2">
+  <b-dropdown id="dropdown-dropend" dropend text="Drop-Right" variant="primary" class="m-2">
     <b-dropdown-item href="#">Action</b-dropdown-item>
     <b-dropdown-item href="#">Another action</b-dropdown-item>
     <b-dropdown-item href="#">Something else here</b-dropdown-item>
   </b-dropdown>
 
-  <b-dropdown id="dropdown-dropleft" dropleft text="Drop-Left" variant="primary" class="m-2">
+  <b-dropdown id="dropdown-dropstart" dropstart text="Drop-Left" variant="primary" class="m-2">
     <b-dropdown-item href="#">Action</b-dropdown-item>
     <b-dropdown-item href="#">Another action</b-dropdown-item>
     <b-dropdown-item href="#">Something else here</b-dropdown-item>
   </b-dropdown>
 </div>
 
-<!-- b-dropdown-dropright-dropleft.vue -->
+<!-- b-dropdown-dropend-dropstart.vue -->
 ```
 
 ### Auto "flipping"

@@ -829,7 +829,7 @@ Released 2019-03-28
   [#2882](https://github.com/bootstrap-vue/bootstrap-vue/issues/2882))
   ([#2893](https://github.com/bootstrap-vue/bootstrap-vue/issues/2893))
   ([310c7dc](https://github.com/bootstrap-vue/bootstrap-vue/commit/310c7dc))
-- **dropdown:** fix `no-caret` prop when dropleft (fixes
+- **dropdown:** fix `no-caret` prop when dropstart (fixes
   [#2909](https://github.com/bootstrap-vue/bootstrap-vue/issues/2909))
   ([#2910](https://github.com/bootstrap-vue/bootstrap-vue/issues/2910))
   ([3bef981](https://github.com/bootstrap-vue/bootstrap-vue/commit/3bef981))
@@ -1531,7 +1531,7 @@ Released: (2019-02-14)
 - **dropdown:** use provide and inject
   ([#2431](https://github.com/bootstrap-vue/bootstrap-vue/issues/2431))
   ([3df90ea](https://github.com/bootstrap-vue/bootstrap-vue/commit/3df90ea))
-- **dropdown:** Add `dropright` and `dropleft` direction support
+- **dropdown:** Add `dropend` and `dropstart` direction support
   ([#2117](https://github.com/bootstrap-vue/bootstrap-vue/issues/2117))
   ([#2108](https://github.com/bootstrap-vue/bootstrap-vue/issues/2108)
   ([e186639](https://github.com/bootstrap-vue/bootstrap-vue/commit/e186639))
