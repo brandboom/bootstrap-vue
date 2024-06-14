@@ -68,7 +68,7 @@ Positioning is relative to the trigger element.
 
 <div class="bd-example bd-example-popover-static">
   <div class="popover b-popover bs-popover-top bs-popover-top-docs">
-    <div class="arrow" style="left: calc(50% - 8px)"></div>
+    <div class="popover-arrow" style="left: calc(50% - 8px)"></div>
     <h3 class="popover-header">Popover top</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia
@@ -76,7 +76,7 @@ Positioning is relative to the trigger element.
     </div>
   </div>
   <div class="popover b-popover bs-popover-top bs-popover-top-docs">
-    <div class="arrow" style="right: 0px"></div>
+    <div class="popover-arrow" style="right: 0px"></div>
     <h3 class="popover-header">Popover topleft</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia
@@ -84,7 +84,7 @@ Positioning is relative to the trigger element.
     </div>
   </div>
   <div class="popover b-popover bs-popover-top bs-popover-top-docs">
-    <div class="arrow" style="left: 0px"></div>
+    <div class="popover-arrow" style="left: 0px"></div>
     <h3 class="popover-header">Popover topright</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia
@@ -92,24 +92,24 @@ Positioning is relative to the trigger element.
     </div>
   </div>
 
-  <div class="popover b-popover bs-popover-right bs-popover-right-docs">
-    <div class="arrow" style="top: calc(50% - 4px)"></div>
+  <div class="popover b-popover bs-popover-end bs-popover-end-docs">
+    <div class="popover-arrow" style="top: calc(50% - 4px)"></div>
     <h3 class="popover-header">Popover right</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia
       quam venenatis vestibulum.
     </div>
   </div>
-  <div class="popover b-popover bs-popover-right bs-popover-right-docs">
-    <div class="arrow" style="bottom: 0px"></div>
+  <div class="popover b-popover bs-popover-end bs-popover-end-docs">
+    <div class="popover-arrow" style="bottom: 0px"></div>
     <h3 class="popover-header">Popover righttop</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia
       quam venenatis vestibulum.
     </div>
   </div>
-  <div class="popover b-popover bs-popover-right bs-popover-right-docs">
-    <div class="arrow" style="top: 0px"></div>
+  <div class="popover b-popover bs-popover-end bs-popover-end-docs">
+    <div class="popover-arrow" style="top: 0px"></div>
     <h3 class="popover-header">Popover rightbottom</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia
@@ -118,7 +118,7 @@ Positioning is relative to the trigger element.
   </div>
 
   <div class="popover b-popover bs-popover-bottom bs-popover-bottom-docs">
-    <div class="arrow" style="left: calc(50% - 8px)"></div>
+    <div class="popover-arrow" style="left: calc(50% - 8px)"></div>
     <h3 class="popover-header">Popover bottom</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia
@@ -126,7 +126,7 @@ Positioning is relative to the trigger element.
     </div>
   </div>
   <div class="popover b-popover bs-popover-bottom bs-popover-bottom-docs">
-    <div class="arrow" style="right: 0px"></div>
+    <div class="popover-arrow" style="right: 0px"></div>
     <h3 class="popover-header">Popover bottomleft</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia
@@ -134,7 +134,7 @@ Positioning is relative to the trigger element.
     </div>
   </div>
   <div class="popover b-popover bs-popover-bottom bs-popover-bottom-docs">
-    <div class="arrow" style="left: 0px"></div>
+    <div class="popover-arrow" style="left: 0px"></div>
     <h3 class="popover-header">Popover bottomright</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia
@@ -142,24 +142,24 @@ Positioning is relative to the trigger element.
     </div>
   </div>
 
-  <div class="popover b-popover bs-popover-left bs-popover-left-docs">
-    <div class="arrow" style="top: calc(50% - 4px)"></div>
+  <div class="popover b-popover bs-popover-start bs-popover-start-docs">
+    <div class="popover-arrow" style="top: calc(50% - 4px)"></div>
     <h3 class="popover-header">Popover left</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia
       quam venenatis vestibulum.
     </div>
   </div>
-  <div class="popover b-popover bs-popover-left bs-popover-left-docs">
-    <div class="arrow" style="bottom: 0px"></div>
+  <div class="popover b-popover bs-popover-start bs-popover-start-docs">
+    <div class="popover-arrow" style="bottom: 0px"></div>
     <h3 class="popover-header">Popover lefttop</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia
       quam venenatis vestibulum.
     </div>
   </div>
-  <div class="popover b-popover bs-popover-left bs-popover-left-docs">
-    <div class="arrow" style="top: 0px"></div>
+  <div class="popover b-popover bs-popover-start bs-popover-start-docs">
+    <div class="popover-arrow" style="top: 0px"></div>
     <h3 class="popover-header">Popover leftbottom</h3>
     <div class="popover-body">
       Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia

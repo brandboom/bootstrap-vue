@@ -34,7 +34,7 @@ export const BVPopoverTemplate = /*#__PURE__*/ extend({
         },
         [
           h('div', {
-            staticClass: 'arrow',
+            staticClass: 'popover-arrow',
             ref: 'arrow'
           }),
           isUndefinedOrNull($title) || $title === ''

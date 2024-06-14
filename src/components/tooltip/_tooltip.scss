@@ -66,13 +66,13 @@
         &[x-placement^="top"] {
           @extend .bs-tooltip-top;
         }
-        &[x-placement^="end"] {
+        &[x-placement^="right"] {
           @extend .bs-tooltip-end;
         }
         &[x-placement^="bottom"] {
           @extend .bs-tooltip-bottom;
         }
-        &[x-placement^="start"] {
+        &[x-placement^="left"] {
           @extend .bs-tooltip-start;
         }
       }

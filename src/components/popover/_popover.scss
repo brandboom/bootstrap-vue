@@ -32,7 +32,7 @@
       }
 
       &.bs-popover-top {
-        > .arrow {
+        > .popover-arrow {
           &::before {
             border-top-color: $po-arrow-outer-color;
           }
@@ -43,8 +43,8 @@
         }
       }
 
-      &.bs-popover-right {
-        > .arrow {
+      &.bs-popover-end {
+        > .popover-arrow {
           &::before {
             border-right-color: $po-arrow-outer-color;
           }
@@ -56,7 +56,7 @@
       }
 
       &.bs-popover-bottom {
-        > .arrow {
+        > .popover-arrow {
           &::before {
             border-bottom-color: $po-arrow-outer-color;
           }
@@ -72,8 +72,8 @@
         }
       }
 
-      &.bs-popover-left {
-        > .arrow {
+      &.bs-popover-start {
+        > .popover-arrow {
           &::before {
             border-left-color: $po-arrow-outer-color;
           }
@@ -89,13 +89,13 @@
           @extend .bs-popover-top;
         }
         &[x-placement^="right"] {
-          @extend .bs-popover-right;
+          @extend .bs-popover-end;
         }
         &[x-placement^="bottom"] {
           @extend .bs-popover-bottom;
         }
         &[x-placement^="left"] {
-          @extend .bs-popover-left;
+          @extend .bs-popover-start;
         }
       }
 
